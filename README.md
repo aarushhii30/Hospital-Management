@@ -34,23 +34,28 @@ A backend system to manage hospital operations including patient records, appoin
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-```bash
+
 git clone https://github.com/sarthakksingh/Hospital-Appointment-Backend
+
 cd Hospital-Appointment-Backend
 
-###2️⃣ Install Dependencies
-```bash
-       pip install -r requirements.txt
+
+### 2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
 
 ### 3️⃣ Run Server
-```bash
-       uvicorn main:app --reload
 
-```md
+uvicorn main:app --reload
+
+
+---
+
 ## 🔗 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|------------|
-| 🟢 **GET** | `/patients` | Manage patient records |
-| 🔵 **GET** | `/appointments` | Schedule appointments |
-| 🟣 **GET** | `/reports` | Generate reports |
+| **GET** | `/patients` | Manage patient records |
+| **GET** | `/appointments` | Schedule appointments |
+| **GET** | `/reports` | Generate reports |
