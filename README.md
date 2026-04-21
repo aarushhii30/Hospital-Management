@@ -28,16 +28,18 @@ A backend system designed to manage hospital operations including patient record
 ```bash
 git clone https://github.com/your-username/hospital-management-system.git
 cd hospital-management-system
-2. Install dependencies
+###2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Run the server
+###3. Run the server
+```bash
 uvicorn main:app --reload
 
-🌐 API Endpoints
+#🌐 API Endpoints
 /patients → Manage patient records
 /appointments → Schedule and manage appointments
 /reports → Generate reports
-📌 Future Improvements
+#📌 Future Improvements
 Authentication & authorization
 Role-based access control
 Frontend integration
